@@ -91,7 +91,7 @@ const Register: React.FC = () => {
         <TextField
           onChange={e => setPassord(e.target.value)}
           fullWidth
-          label="Passord"
+          label="Password"
           type="password"
           variant="standard"
         />
@@ -101,7 +101,7 @@ const Register: React.FC = () => {
         <TextField
           onChange={e => setConfirmPassord(e.target.value)}
           fullWidth
-          label="Confirm passord"
+          label="Confirm password"
           type="password"
           variant="standard"
         />

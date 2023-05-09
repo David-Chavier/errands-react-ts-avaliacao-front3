@@ -138,7 +138,7 @@ export default function CustomizedDialogs(props: CustomizedDialogsProps) {
             />
           )}
         </BootstrapDialogTitle>
-        <DialogContent dividers sx={{ minWidth: '550px' }}>
+        <DialogContent dividers sx={{ minWidth: '30vw' }}>
           {edit && <Typography>{editDetails}</Typography>}
           {!edit && (
             <TextField
