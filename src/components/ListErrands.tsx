@@ -5,10 +5,8 @@ import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 import CommentIcon from '@mui/icons-material/Comment';
 import { Avatar, ListItemAvatar } from '@mui/material';
-import imgBase from '../images/imgBase.png';
 import { useAppSelector } from '../store/hooks';
 import React, { useState } from 'react';
-
 import CustomizedDialogs from './Details';
 
 export interface SearchReceived {
@@ -54,7 +52,7 @@ const ListErrands: React.FC<SearchReceived> = ({ GetSearch }) => {
             >
               <ListItemButton role={undefined} dense>
                 <ListItemAvatar>
-                  <Avatar alt={`Avatar n°${imgBase}`} src={imgBase} />
+                  <Avatar alt='Avatar n°"/images/imgBase.png"' src="/images/imgBase.png" />
                 </ListItemAvatar>
                 <ListItemText id={labelId} primary={`(${index + 1}) ${value.description}`} />
               </ListItemButton>

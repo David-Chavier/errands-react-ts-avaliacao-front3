@@ -5,7 +5,6 @@ import ListErrands from '../components/ListErrands';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { useNavigate } from 'react-router-dom';
 import { updateOne } from '../store/modules/registerSlice';
-
 import { addNote } from '../store/modules/userLogged';
 
 const Home: React.FC = () => {

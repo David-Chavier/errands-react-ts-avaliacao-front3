@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import RegisterTypes from '../types/RegisterTypes';
 import { addRegister, selectAll } from '../store/modules/registerSlice';
-import imgBase from '../images/imgBase.png';
 
 const Register: React.FC = () => {
   const navigate = useNavigate();
@@ -71,8 +70,8 @@ const Register: React.FC = () => {
       <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
         <ListItemAvatar>
           <Avatar
-            alt={`Avatar n°${imgBase}`}
-            src={imgBase}
+            alt='Avatar n°"/images/imgBase.png"'
+            src="/images/imgBase.png"
             sx={{ height: '130px', width: '130px', marginTop: '25px' }}
           />
         </ListItemAvatar>
