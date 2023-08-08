@@ -1,5 +1,6 @@
 # errands-react-tsavaliação-front3
 
+ Acessar a aplicação: <a href="https://tasktracker-lyart.vercel.app">tasktracker</a>
 
 ![front-end3-ex1](https://github.com/David-Chavier/errands-react-ts-avaliacao-front3/assets/115047948/7987aebc-a2a6-4fc8-a4f4-4499904614e5)
 
